@@ -1,6 +1,6 @@
 const tableBody = document.getElementById('table-body');
 const addButton = document.getElementById('add-task-button');
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://growdev-scrapbook-api-joao.herokuapp.com';
 
 async function adicionarRecado(event) { 
     try {
