@@ -1,0 +1,120 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+}
+
+.h100w50 { 
+    height: 100vh;
+}
+
+.bg-image { 
+    background: url(/images/imagemprincipal3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-form { 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    position: relative;
+    top: 55%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.titleForm { 
+    font-size: 30px;
+    color: #9a9e9a;
+}
+
+.margin-b { 
+    margin-bottom: 3%;
+}
+.inputs { 
+    border: #9a9e9a 2px solid;
+    border-radius: 5px;
+    height: 5vh;
+    padding: 15px 20px;
+    
+    
+}
+.margin-b5 { 
+    margin-bottom: 5%;
+}
+
+.button { 
+    background-color: #4AB354;
+    border: 0px;
+    color: white;
+    width: 65%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.button:hover { 
+    background-color: #5fd36a;
+}
+
+.linkCreateAccount { 
+    text-decoration: none;
+    color: #9a9e9a;
+    font-size: 16px;
+}
+
+.main-form-create { 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    position: relative;
+    top: 47%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.inputsForm { 
+    display: flex;
+    flex-direction: column;
+}
+
+.task-dashboard { 
+    display: flex;
+    align-items: center;
+    background-color:rgb(92, 87, 87);
+    min-height: 15vh;
+    margin-top: 5%;
+}
+
+.header-task {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button-add { 
+    margin: 0 solid;
+    background-color: rgb(90, 219, 176);
+    border-radius: 10px;
+    height: 40px;
+}
+.button-add:hover { 
+    background-color: rgb(150, 250, 217);    
+}
+
+.h1-taks { 
+ font-size: 30px;
+ color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.table { 
+    background-color: #4AB354;
+}
+
+.btn {
+    width: 15px;
+    height: 10px;
+}
